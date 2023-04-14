@@ -20,8 +20,8 @@ while genero not in ['Feminino', 'Masculino', 'Indefinido']:
     print("Gênero inválido. Digite 'Feminino' para feminino, 'Masculino' para masculino ou 'Indefinido' para não informado.")
     genero = input("Digite seu gênero (F/M/I): ")
 
-estado_civil = input("Digite seu estado civil: Solteiro, Casado, Viúvo ou Divorciado: ")
-while estado_civil not in ['Solteiro', 'Casado', 'Viúvo', 'Divorciado']:
+estado_civil = input("Digite seu estado civil: Solteiro(a), Casado(a), Viúvo(a) ou Divorciado(a): ")
+while estado_civil not in ['Solteiro', 'Solteira', 'Casado', 'Casada', 'Viúvo', 'Viúva', 'Divorciado', 'Divorciada']:
     print("Estado civil inválido. Digite 'Solteiro' para solteiro(a), 'Casado' para casado(a), 'Vivo' para viúvo(a) ou 'Divorciado' para divorciado(a).")
     estado_civil = input("Digite seu estado civil (S/C/V/D): ")
 
@@ -36,3 +36,4 @@ print(f"Salário: R${salario:.2f}")
 print(f"Identidade de gênero: {genero}")
 print(f"Estado Civil: {estado_civil}")
 print(f"Sexualidade: {sexualidade}")
+print("Muito obrigado por participar!")
