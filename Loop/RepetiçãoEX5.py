@@ -1,11 +1,11 @@
 def main():
     while True:
-        calcular_crescimento_populacional()
+        calculo_crescimento_populacional()
         resposta = input("Deseja recalcular os dados? (s/n): ")
         if resposta.lower() != "s":
             break
 
-def calcular_crescimento_populacional():   
+def calculo_crescimento_populacional():   
     populacao_a = 0
     populacao_b = 0
     taxa_crescimento_a = 0
